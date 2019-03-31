@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # simple-template
 #fitur
 login
@@ -11,3 +12,6 @@ protect with form validation
 privilages user management
 permission privilages management
 management menu and module crud
+=======
+# e-arsip
+>>>>>>> earsip/master
