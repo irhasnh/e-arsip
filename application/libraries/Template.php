@@ -188,5 +188,17 @@ class Template
 			);
 		$this->auth($where);
 	}
+
+	public function get_sidebar_data()
+	{
+		$data = array(
+			'priv' => $this->sidebar_data['priv'],
+			'delete' => $this->sidebar_data['delete'],
+			'update' => $this->sidebar_data['update'],
+			'create' => $this->sidebar_data['create'],
+			'user' => $this->template_data['name']
+			);
+		return $data;
+	}
 }
 ?>
